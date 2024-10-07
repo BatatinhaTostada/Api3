@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <style>
+    body{
+        background-image: url(img/52aa1eeee98ea306d900780de74afebb.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+    .api{
+        display: flex;
+        justify-content: center;
+        background-color: rgb(230, 170, 203);
+        color: aliceblue;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .link{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(187, 167, 214);
+        
+    }
+    .link :hover{
+    color: aliceblue;
+    cursor: pointer;
+    }
+    .botao{
+        background-color: transparent;
+        border: none;
+        color: rgb(62, 69, 173);
+        font-size: medium;
+       
+    }
+    .lista{
+        position: absolute;
+        width: 300px;
+        height: 430px;
+        font-size: 25px;
+        background: transparent;
+        backdrop-filter: blur(20px);
+        border: 2px solid rgba(132, 132, 132, 0.354);
+        backdrop-filter:blur(7px);
+        color: rgb(207, 7, 7);
+        padding: 80px;
+        border-radius: 20px;
+        background-color: transparent;
+        margin-left: 40%;
+        margin-top: 5%;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        backdrop-filter: blur(12px);
+    }
+    .end{
+        display: flex;
+        font-size: 30px;
+        padding: 5px;
+        justify-content: center;
+        align-items: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .input-box input{
+        width: 30vh;
+        padding: 10px;
+        border-radius: 15px;
+        border: none;
+
+    }
+    
+   </style>
+
+ 
+
+    <div class="lista">
+        <div class="end">
+        <legend >Endereço</legend>
+    </div>
+    <br><br>
+        <div class="input-box">
+        <input type="text" placeholder="CEP" id="cep" autocomplete="off">
+        <br><br>
+    </div>
+
+        <div class="input-box">
+        <input type="text" placeholder="RUA" id="rua" readonly>
+        <br><br>
+    </div>
+
+       <div class="input-box">
+        <input type="text" placeholder="BAIRRO" id="bairro" readonly>
+        <br><br>
+    </div>
+
+        <div class="input-box">
+        <input type="text" placeholder="CIDADE" id="cidade" readonly>
+        <br><br>
+    </div>
+        
+    <div class="input-box">
+        <input type="text" placeholder="ESTADO" id="estado" readonly>
+    </div>
+
+
+</div>
+<script src="cep.js"></script>
+</body>
+</html>

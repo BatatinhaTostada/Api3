@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        display: flex;
+   justify-content: center;
+   align-items: center;   
+   min-height: 100vh;
+        background-image: url(img/images.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        backdrop-filter: blur(4px);
+   backdrop-filter:cover;
+    }
+ .container{
+    position: absolute;
+    top: 23%;
+    left: 40%;
+    border-radius: 15px;
+    color: transparent;
+    background-color: rgb(76, 82, 67);
+    width: 20%;
+    height: 50%;
+ }
+ label{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+ }
+ p{
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    color: rgb(151, 143, 106);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+
+</style>
+<body>
+ 
+    <div class="container">
+        <label for="">ValorDolar</label>
+        <p id="valorDolar"></p>
+        <label for="">ValorDolarMaior</label>
+        <p id="valorMaior"></p>
+        <label for="">ValorDolarMenor</label>
+        <p id="valorMenor"></p>
+        <script src="dolar.js"></script>
+</body>
+</html>

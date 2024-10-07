@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discos</title>
+    <style>
+        body {
+            background-image: url(img.flor/gif.flor.gif);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        header {
+            background-color: transparent;
+            backdrop-filter: blur(5px) ;            
+            padding: 10px;
+            text-align: center;
+        }
+        .logo2 {
+            color: rgb(232, 35, 0);
+            font-size: 50px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .item {
+            background-color: rgba(239, 91, 180, 0.4);
+            backdrop-filter: blur(30px);
+            border-radius: 10px;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            color: rgb(154, 0, 116);
+            font-size: x-large;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .item img {
+            max-width: 150%;
+            height: 50%;
+            border-radius: 10px;
+        }
+        .button {
+            background-color: rgba(255, 108, 255, 0.573);
+            border-radius: 10px;
+            height: 40px;
+            width: 100%;
+            cursor: pointer; 
+            border: none;
+            font-size: 16px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: rgb(126, 30, 80);
+            font-size: 20px;
+        }
+        .logo {
+            color: rgb(196, 76, 112);
+            font-size: 29px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+    </style>
+</head>
+<body> 
+    <header>
+        <h1 class="logo2">Flores</h1>
+    </header>
+   
+    <div class="container"> 
+        <div class="item">
+            <div id="nome1"></div>
+            <div id="imagem1"></div>         
+            <div id="preco1"></div>
+            <button class="button UV">Comprar</button>
+        </div>
+
+        <div class="item">
+            <div id="nome2"></div>
+            <div id="imagem2"></div>
+            <div id="preco2"></div>
+            <button class="button UA">Comprar</button>
+        </div>
+
+        <div class="item">
+            <div id="nome3"></div>
+            <div id="imagem3"></div>
+            <div id="preco3"></div>
+            <button class="button UR">Comprar</button>
+        </div>
+
+        <div class="item">
+            <div id="nome4"></div>
+            <div id="imagem4"></div>
+            <div id="preco4"></div>
+            <button class="button URO">Comprar</button>
+        </div>
+
+        <div class="item">
+            <div id="nome5"></div>
+            <div id="imagem5"></div>
+            <div id="preco5"></div>
+            <button class="button UAM">Comprar</button>
+        </div>
+
+        <div class="item">
+            <div id="nome6"></div>
+            <div id="imagem6"></div>
+            <div id="preco6"></div>
+            <button class="button UL">Comprar</button>
+        </div>
+    </div>
+    
+    <script src="commerce.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+    "nome1": "Rosa",
+    "price1": "R$ 4,50 unid.",
+    "image1": "<img src='img/Red_rose.jpg' width='200px'>",
+
+    "nome2": "Orquidea",
+    "price2": "R$ 24,90",
+    "image2": "<img src='img/orquidea.webp' width='200px'>",
+
+    "nome3": "Girassol",
+    "price3": "R$ 39,90",
+    "image3": "<img src='img/girassois.webp' width='200px'>",
+
+    "nome4": "Margarida",
+    "price4": "R$ 35,90",
+    "image4": "<img src='img/margarida.jpg' width='200px'>",
+
+    "nome5": "Tulipa",
+    "price5": "R$ 90,90",
+    "image5": "<img src='img/Tulipa-5.jpg' width='200px'>",
+
+    "nome6": "Cravo",
+    "price6": "R$ 25,90",
+    "image6": "<img src='img/cravo.jpeg' width='200px'>"
+}

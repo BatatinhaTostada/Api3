@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<style>
+    body{
+        background-image: url(https://i.pinimg.com/originals/5c/21/1a/5c211a157f65c0b234c8eee5a69c8020.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .container{
+    background-color: rgba(182, 204, 255, 0.304);
+    border-radius: 15px;
+    position: relative;
+    margin-left: 40%;
+    color: rgb(54, 59, 64);
+    margin-top: 10%;
+    justify-content: center;
+    width: 20%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button{
+    background-color: rgb(123, 72, 72);
+    border: none;
+    border-radius: 7px;
+    color: white;
+    padding: 8px;
+
+}
+input{
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    height: 30px;
+    background-color: rgba(64, 75, 64, 0.689);
+    color: rgb(250, 221, 231);
+}
+    
+
+.p{
+    color: rgb(250, 221, 231);
+}
+
+.temp{
+    color: rgb(250, 221, 231);
+}
+
+</style>
+
+<body>
+    <div class="container">
+    <h1>Previsão do Tempo</h1>
+    <p class="p">Digite o nome da cidade</p>
+    <input type="text" id="cidade">
+    <button onclick="getWeather()">Pesquisar</button>
+    <div class="temp" id="temperatura">...</div>
+</div>
+    <script src="tempo.js"></script>
+</body>
+</html>

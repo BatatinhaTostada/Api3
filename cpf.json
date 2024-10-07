@@ -1,0 +1,52 @@
+
+[
+    {
+    "id": 1,
+    "cpf": 111,
+    "nome": "Rodrigo", 
+    "sobrenome": "Garro", 
+    "pais": "Argetina",
+    "imagem": "<img src='img/rodrigo garro.jpg' width='200px'>"
+    },
+    {
+    "id": 2,
+    "cpf": 222,
+    "nome": "Angel", 
+    "sobrenome": "Romero", 
+    "pais": "Uruguai",
+    "imagem": "<img src='img/Romero.webp' width='200px'>"
+    },
+    {
+    "id": 3,
+    "cpf": 333,
+    "nome": "Igor", 
+    "sobrenome": "Coronaro", 
+    "pais": "Brasil",
+    "imagem": "<img src='img/coronado.jpg' width='200px'>"
+    },
+    {
+    "id": 4,
+    "cpf": 444,
+    "nome": "Hugo", 
+    "sobrenome": "Souza", 
+    "pais": "Brasil",
+    "imagem": "<img src='img/hugo.jpg' width='200px'>"
+    },
+    {
+    "id": 5,
+    "cpf": 555,
+    "nome": "Yuri", 
+    "sobrenome": "Alberto",  
+    "pais": "Brasil", 
+    "imagem": "<img src='img/yuri alberto.jpg' width='200px'>"
+    },
+    {
+    "id": 6,
+    "cpf": 666,
+    "nome": "Breno", 
+    "sobrenome": "Bidon", 
+    "pais": "Brasil", 
+    "imagem": "<img src='img/bidon.jpg' width='200px'>"
+    }
+]
+  

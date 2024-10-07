@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CPF</title>
+</head>
+<style>
+    body{
+        background-image: url(img/corinthians.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .quadrado{
+        background-color: rgb(36, 36, 36);
+        position: absolute;
+        width: 30%;
+        border-radius: 10px;
+        margin-left: 10%;
+        color: white;
+    }
+    .borda{
+        font-size: 22px; /* Tamanho da fonte */
+        color: rgb(255, 255, 255); /* Cor do texto */
+        border: 2px solid rgb(255, 255, 255); /* Cor e espessura da borda */
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding: 20px; /* Espaçamento entre o texto e a borda */
+        border-radius: 10px;
+    }
+    .text{
+        color: aliceblue;
+        margin-left: 17%;
+    }
+</style>
+<body>
+    <div class="text">
+    <h1>Buscar CPF</h1>
+</div>
+<div class="quadrado">
+    <div class="borda">
+        <div class="center">
+            <div id="imagem"></div>
+            <div id="nome"></div>
+            <div id="sobrenome"></div>
+            <div id="cidade"></div>
+            <div id="pais"></div>
+
+       </div>
+       <div class="input">
+        <input style="display: flex; margin-left: 23%; background-color: rgb(81, 81, 81); color: rgb(255, 255, 255);" type="number" id="valor" placeholder="Digite o CPF">
+        <div id="erro"></div>
+    </div>
+       <br>
+        <button style="background-color: aliceblue; border: none; width: 20%;
+        border-radius: 8px; padding: 8px; margin-left: 40%;" onclick="Buscar()">Buscar</button>
+
+    </div>
+</div>
+   
+
+    <script src="cpf.js"></script>
+    
+</body>
+</html>
